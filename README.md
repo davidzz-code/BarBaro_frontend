@@ -1,29 +1,56 @@
-# barbaro_frontend
+# Bárbaro: Gestión de una barbería
 
-This template should help get you started developing with Vue 3 in Vite.
+Bárbaro es una plataforma de gestión diseñada para una barbería hipotética. Ofrece intranets personalizadas para diferentes roles, como administrador, empleado y cliente. La aplicación incluye funciones para gestionar citas, horarios, servicios y empleados, lo que mejora tanto la eficiencia operativa como la experiencia del usuario en la administración de la barbería.
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Características
 
-## Customize configuration
+- **Sistema de citas:** Permite a los clientes agendar citas fácilmente y a los empleados consultar sus horarios de trabajo.
+- **Gestión de horarios:** Facilita la programación de turnos de trabajo y la disponibilidad del personal.
+- **Administración de servicios y empleados:** Simplifica la gestión de servicios ofrecidos y del personal de la barbería.
+- **Interfaces personalizadas:** Diferentes intranets adaptadas a las necesidades de administradores, empleados y clientes.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Tecnologías Utilizadas
 
-## Project Setup
+- **Frontend:** Vue.js
+  - **Componentes:** Vuetify
+  - **Gestor de estado:** Pinia
+  - **Empaquetado:** Vite
+- **Backend:** Laravel
 
-```sh
-npm install
-```
+### Requisitos
 
-### Compile and Hot-Reload for Development
+- Node.js
+- PHP
+- Composer
+- MySQL o PostgreSQL
 
-```sh
-npm run dev
-```
+### Instrucciones
 
-### Compile and Minify for Production
+1. **Clonar el repositorio:**
 
-```sh
-npm run build
-```
+   ```bash
+   git clone https://github.com/davidzz-code/BarBaro_frontend.git
+   cd BarBaro_frontend
+   ```
+   
+2. **Instalar dependencias de Vue.js:**
+
+   ```bash
+   npm install
+   ```
+3. **Iniciar el servidor de desarrollo:**
+   ```bash
+   npm run dev
+   ```
+
+### Uso
+
+Accede a la plataforma a través de http://localhost:3000 para el frontend.
+Regístrate y explora las funcionalidades según tu rol asignado (administrador, empleado o cliente).
+
+### Capturas de pantalla de la web
+
+![Captura de pantalla de la landing page](public/screenshots/landing.webp)  
+
+![Captura de pantalla de la vista de citas](public/screenshots/appointments.webp)
