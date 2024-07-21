@@ -49,7 +49,7 @@ Bárbaro es una plataforma de gestión diseñada para una barbería hipotética.
 ### Uso
 
 Accede a la plataforma a través de http://localhost:3000 para el frontend.
-Regístrate y explora las funcionalidades según tu rol asignado (administrador, empleado o cliente).
+Una vez tanto frontend como backend estén funcionando, regístrate y explora las funcionalidades según tu rol asignado (administrador, empleado o cliente).
 
 ### Capturas de pantalla de la web
 
