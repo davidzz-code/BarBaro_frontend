@@ -43,6 +43,8 @@ Bárbaro es una plataforma de gestión diseñada para una barbería hipotética.
    ```bash
    npm run dev
    ```
+4. **Configurar backend:**  
+  Visita el [repositorio del backend](https://github.com/davidzz-code/BarBaro_backend.git) y sigue las instrucciones para iniciar el servidor web.
 
 ### Uso
 
