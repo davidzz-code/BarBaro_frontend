@@ -25,8 +25,8 @@
 	"devDependencies": {
 		"@mdi/font": "^7.4.47",
 		"@mdi/js": "^7.4.47",
-		"@vitejs/plugin-vue": "^5.0.4",
-		"vite": "^5.2.8",
-		"vite-plugin-vue-devtools": "^7.0.25"
+		"@vitejs/plugin-vue": "^5.2.4",
+		"vite": "^8.0.8",
+		"vite-plugin-vue-devtools": "^7.7.9"
 	}
 }
